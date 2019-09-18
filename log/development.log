@@ -5,3 +5,202 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-09-18 13:51:34 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/patrickcook/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/patrickcook/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 13:51:50 -0700
+
+ArgumentError - Missing :controller key on routes definition, please check your routes.:
+  config/routes.rb:2:in `block in <main>'
+  config/routes.rb:1:in `<main>'
+
+Started POST "/__better_errors/2f130a64b49dd9e4/variables" for ::1 at 2019-09-18 13:51:50 -0700
+Started GET "/" for ::1 at 2019-09-18 13:52:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/patrickcook/.rvm/rubies/ruby-2.6.3/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 1090ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___557996363935221695_70194341569760'
+
+Started POST "/__better_errors/4480d360fc056f75/variables" for ::1 at 2019-09-18 13:52:15 -0700
+Started GET "/" for ::1 at 2019-09-18 13:52:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/patrickcook/.rvm/rubies/ruby-2.6.3/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 976ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2440790052118000459_70345323657720'
+
+Started POST "/__better_errors/f2312a782dc7c78a/variables" for ::1 at 2019-09-18 13:52:45 -0700
+Started GET "/" for ::1 at 2019-09-18 13:56:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/patrickcook/.rvm/rubies/ruby-2.6.3/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 1137ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4190973559447467600_70228810682360'
+
+Started POST "/__better_errors/7555f5359c30538f/variables" for ::1 at 2019-09-18 13:56:22 -0700
+Started GET "/" for ::1 at 2019-09-18 13:57:35 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/patrickcook/.rvm/rubies/ruby-2.6.3/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 977ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3213203379530906799_70177048616780'
+
+Started POST "/__better_errors/9f875ecd76dedef7/variables" for ::1 at 2019-09-18 13:57:36 -0700
+Started GET "/" for ::1 at 2019-09-18 14:09:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/patrickcook/.rvm/rubies/ruby-2.6.3/bin/ruby: No such file or directory -- ./bin/webpack (LoadError)
+
+Completed 500 Internal Server Error in 1347ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2510315388219509181_70185278397400'
+  app/controllers/welcome_controller.rb:3:in `index'
+
+Started POST "/__better_errors/c4de69c1d674ac8e/variables" for ::1 at 2019-09-18 14:09:35 -0700
+Started GET "/" for ::1 at 2019-09-18 14:14:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs
+Completed 500 Internal Server Error in 5865ms (ActiveRecord: 0.0ms)
+
+
+
+Webpacker::Manifest::MissingEntryError - Webpacker can't find application in /Users/patrickcook/Library/Mobile Documents/com~apple~CloudDocs/Programming/SpotifyMe/spotifyme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+    "style": {
+      "js": [
+        "/packs/js/style-cce24c69ec08e53d7f7f.js"
+      ],
+      "js.map": [
+        "/packs/js/style-cce24c69ec08e53d7f7f.js.map"
+      ]
+    }
+  },
+  "style.js": "/packs/js/style-cce24c69ec08e53d7f7f.js",
+  "style.js.map": "/packs/js/style-cce24c69ec08e53d7f7f.js.map"
+}
+:
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1236655816626923694_70182201547460'
+  app/controllers/welcome_controller.rb:3:in `index'
+
+Started POST "/__better_errors/3fade6cf5bc56dc2/variables" for ::1 at 2019-09-18 14:14:54 -0700
+Started GET "/" for ::1 at 2019-09-18 14:32:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+  `@babel/polyfill` is deprecated. Please, use required parts of `core-js`
+  and `regenerator-runtime/runtime` separately
+
+Completed 200 OK in 28856ms (Views: 28852.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 14:33:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 14582ms (Views: 14577.9ms | ActiveRecord: 0.0ms)
+
+
