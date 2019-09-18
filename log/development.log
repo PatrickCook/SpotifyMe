@@ -204,3 +204,166 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 14582ms (Views: 14577.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-09-18 14:50:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12882ms (Views: 12873.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:50:33 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:50:33 -0700
+Started GET "/" for ::1 at 2019-09-18 14:52:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12810ms (Views: 12805.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:52:17 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:52:17 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:53:24 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 14:53:24 -0700
+Started GET "/auth/spotify/callback?code=AQD7EVVPrd5laaOVRwD2UM72JiTyWuOec7r5fb9IV9FbE2ZVAcydrTvUK74QNWNwVA0-9-aMHEKStlUsU35AVbYxLQOPRvqgIsXjXXn1gPX5BiJ5ri3TSFWtx-viHvRxUCzHBlrcNDPO3W_m0D1-TGxGCAn2VYibdO9x5-_KTFzQ6Lx5XRDdrmLrehYYO9WYB9eAHeRt07s0BNTibs2-fyWTroNxydTLhwVG9yUQ4wzDOeDk78bbS55Y0ZCFEoebtFjtnLBIFdxi0V0-Bt62T9JPxFIGdPZY6tUXe5ODYS0ZLqPHYOz5UTwkPtD3_4tEuVktHw&state=6f44abd8e4fba392138ce6472e171b3e0e1c096602228c36" for ::1 at 2019-09-18 14:53:27 -0700
+
+OAuth2::Error - invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}:
+
+Started POST "/__better_errors/e0718311bb05c801/variables" for ::1 at 2019-09-18 14:53:28 -0700
+Started GET "/auth/spotify/callback?code=AQD7EVVPrd5laaOVRwD2UM72JiTyWuOec7r5fb9IV9FbE2ZVAcydrTvUK74QNWNwVA0-9-aMHEKStlUsU35AVbYxLQOPRvqgIsXjXXn1gPX5BiJ5ri3TSFWtx-viHvRxUCzHBlrcNDPO3W_m0D1-TGxGCAn2VYibdO9x5-_KTFzQ6Lx5XRDdrmLrehYYO9WYB9eAHeRt07s0BNTibs2-fyWTroNxydTLhwVG9yUQ4wzDOeDk78bbS55Y0ZCFEoebtFjtnLBIFdxi0V0-Bt62T9JPxFIGdPZY6tUXe5ODYS0ZLqPHYOz5UTwkPtD3_4tEuVktHw&state=6f44abd8e4fba392138ce6472e171b3e0e1c096602228c36" for ::1 at 2019-09-18 14:56:33 -0700
+
+OAuth2::Error - invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}:
+
+Started POST "/__better_errors/b64d65a260372ca1/variables" for ::1 at 2019-09-18 14:56:34 -0700
+Started GET "/auth/spotify/callback?code=AQAb2jOYVL8_z6VYKjnI_I_wSFjYzsO7UvGp4jU-OgV76wBrtDMF_mlMdnRvBYySqTJ7viBT_l2EUeas6A3nepMnQBptpi6wXUNHLFprx5JLblG-9iQclHRveedQ1Vvo7WE5oYxNxZelyiZIm6VM0nrGLc1HnsUsyCxHrwxkUTCaJWaORMLf_jUqfr2sJBLxI-zS8kiK13zBDDXcJPdNh-Snh4gyM3f1QJe3Ui6y6ksOEaznXyTMp3zmz0ACqozVFxmz-6dcBZupK3LNw1ZlSX_alG8yCD7KvibSq-oJ1JK20KkrVbFqSeOUlYYGWzfl8ziIxw&state=6f44abd8e4fba392138ce6472e171b3e0e1c096602228c36" for ::1 at 2019-09-18 15:00:22 -0700
+
+OAuth2::Error - invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}:
+
+Started GET "/" for ::1 at 2019-09-18 15:00:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 9806ms (Views: 9805.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:00:52 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:00:53 -0700
+Started GET "/auth/spotify/callback?code=AQCbXt4blPxQq_loIrfw6KLUyyKoJw1vTSHpAIGMP4WYhy40JL7SQJ2CFRSu8UjzJkKqrJl4PRH5r-vuW8Zy82xGjQ3suFVScnhLktD7VrrQULrHSJx9M1WdeXOLdHrzjLM1VJtMcJ9FDCnm8zmNyi924b3i2ASK2ZHwCKDuhvbJTczzs4vxcg6SxL_hZp0c5TrkYA2Kglp43NKEGYD5qJotJOVF-Rp7IobdUrkC-YHwy0v6Ph2pS4TINKwES6ClBW9gYuNYXpZr1yJ2PkYXvxR6_VzseLeOCRrkbjQBWVcr1Nym13f9v_LJsVUElzi9rEafhg&state=399a92447ed4b5ffc1b5e6f9452e22bd250a77576d1b9739" for ::1 at 2019-09-18 15:00:53 -0700
+
+OAuth2::Error - invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}:
+
+Started POST "/__better_errors/c5af2893dd71d2bd/variables" for ::1 at 2019-09-18 15:00:53 -0700
+Started GET "/" for ::1 at 2019-09-18 15:03:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12279ms (Views: 12273.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:04:28 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:04:28 -0700
+Started GET "/auth/spotify/callback?code=AQCDjFMxWxCY_l3zAz7jVUE9w_MY_nMQfvrTIueRTPkwrhN7CFHyvPvYjqitUqsT_BOjz6QF2kLH-ek8jPpJSI-iBBRMi0ORt7d75fxlpnAtwkr1W3eLGB1oORIJp7LQkJlyoQxM9oD8nH30stxIB8onQZP7D-Rf2fM4vEayyzVufFhkhE91tZ9qm7Elf9koc_qcpP5rryAHJE8K3rgIQg1fQwf1QjSi-83w8sfnAMAKA_jrGxBOs7-b52kJlopXaIcZZTTP3UOFPwkmCBGzzVdKdnpFvK-ZxdTu7kc4TsLSCEc3yWZfxuH4_DKnDLkmRI8AMQ&state=1ee8393610e859fa903674ddb8acdae4dfcb8a395270ee63" for ::1 at 2019-09-18 15:04:29 -0700
+
+OAuth2::Error - invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}:
+
+Started POST "/__better_errors/d47f5f2cf127fdba/variables" for ::1 at 2019-09-18 15:04:29 -0700
+Started GET "/" for ::1 at 2019-09-18 15:15:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12445ms (Views: 12440.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:15:24 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:15:24 -0700
+Started GET "/auth/spotify/callback?code=AQAUX9vbk2IWlbrK4lfM9mH9wfyM2N9sFVadUTbbkAT60zXDqAafEeyDViqmVKRRvonB9ab_CBGkRTdjBzseXVjwe52X3nyiKUirlpwcpGrG2tOTy2LzFGY7eJW03Dll_duEEJk0jxBCBId9KRen3FxJ_myCIbRVElryfekaUJLsEDFXL1zF7VwbFKXo4V8A46VKkqH2JWIho49nIlokz3oee-yIH8fwIqCQH7zG4Tm-_dSoTNgopdOCciJlQF3vKFFC7uv-6Rcusku7ndeJOVkOWkDy5W1DRBzOqyZLPuJkRtL-P0-ySAR1-jdEysonS7d9vA&state=b7b7af0581eaf3f2fdb07e91cd5347f43069126a13b1082d" for ::1 at 2019-09-18 15:15:24 -0700
+
+NameError - uninitialized constant UsersController:
+
+Started POST "/__better_errors/5be7e770a7524021/variables" for ::1 at 2019-09-18 15:15:24 -0700
+Started GET "/" for ::1 at 2019-09-18 15:16:05 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12904ms (Views: 12899.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:16:20 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:16:20 -0700
+Started GET "/auth/spotify/callback?code=AQBMKj_3wH5mDMutBlYYsth44EsYNRjuEKMXD4M9am4a-qyJxva8Dk3vcGZZ3MZP9Yg-k965wr8DgXglJNpw2s7h-lDGaidRicYe16MAb_mzRfqxwN4WPM5pxh-KiO5S5KAp-F2yzvWoqfwcNGqPAYfY872fGIkGDxX3_P_yYZ0XFMxRjnQTXmnoy_ncGyZOY_Y1VKjyTrILLl2Evq6sGZb1cX-vuP-YBJI5_SgVmA6uDVUsiwe8IT1ImXf-7Mkno9IoiYO9IYEVSKVfhqJdnx4P8Ov3e2s1643KfK5J039ADLc0-BF4MOdkQW_D-WG3hnYKcg&state=c8a92f4f41fb6380f858d8408f7ffd4c57a3bb9e0a45d698" for ::1 at 2019-09-18 15:16:21 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQBMKj_3wH5mDMutBlYYsth44EsYNRjuEKMXD4M9am4a-qyJxva8Dk3vcGZZ3MZP9Yg-k965wr8DgXglJNpw2s7h-lDGaidRicYe16MAb_mzRfqxwN4WPM5pxh-KiO5S5KAp-F2yzvWoqfwcNGqPAYfY872fGIkGDxX3_P_yYZ0XFMxRjnQTXmnoy_ncGyZOY_Y1VKjyTrILLl2Evq6sGZb1cX-vuP-YBJI5_SgVmA6uDVUsiwe8IT1ImXf-7Mkno9IoiYO9IYEVSKVfhqJdnx4P8Ov3e2s1643KfK5J039ADLc0-BF4MOdkQW_D-WG3hnYKcg", "state"=>"c8a92f4f41fb6380f858d8408f7ffd4c57a3bb9e0a45d698"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `email' for nil:NilClass:
+  app/views/user/spotify.html.erb:1:in `_app_views_user_spotify_html_erb___454563560770187635_70209418946480'
+
+Started POST "/__better_errors/d841949d8f023bdd/variables" for ::1 at 2019-09-18 15:16:21 -0700
+Started GET "/auth/spotify/callback?code=AQBMKj_3wH5mDMutBlYYsth44EsYNRjuEKMXD4M9am4a-qyJxva8Dk3vcGZZ3MZP9Yg-k965wr8DgXglJNpw2s7h-lDGaidRicYe16MAb_mzRfqxwN4WPM5pxh-KiO5S5KAp-F2yzvWoqfwcNGqPAYfY872fGIkGDxX3_P_yYZ0XFMxRjnQTXmnoy_ncGyZOY_Y1VKjyTrILLl2Evq6sGZb1cX-vuP-YBJI5_SgVmA6uDVUsiwe8IT1ImXf-7Mkno9IoiYO9IYEVSKVfhqJdnx4P8Ov3e2s1643KfK5J039ADLc0-BF4MOdkQW_D-WG3hnYKcg&state=c8a92f4f41fb6380f858d8408f7ffd4c57a3bb9e0a45d698" for ::1 at 2019-09-18 15:16:51 -0700
+
+OAuth2::Error - invalid_grant: Invalid authorization code
+{"error":"invalid_grant","error_description":"Invalid authorization code"}:
+
+Started POST "/__better_errors/059e9013d21bb3ba/variables" for ::1 at 2019-09-18 15:16:52 -0700
+Started GET "/" for ::1 at 2019-09-18 15:16:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 10950ms (Views: 10949.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:17:11 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:17:11 -0700
+Started GET "/auth/spotify/callback?code=AQCVqSY-5M47MU4P61ZL31shOri0mqXXXJTsCpNgTqHmYXumMILbRuKALrzOIrSH76tovZ0bEiq81CKyq4flhpKdpnEcdv1Z4jsDHnA4WTRtJECXBnsnJxUfj1pFW1TQ4-D8nA5zilNM1sEmOg9g8be-oCq9rMf-TwM2QmAwKe0lbGHm1hFXzaOTkjoi19en1aUGdtZaTXX0qmg-Y-KgCJcn-LDgrbTHpw5enYxWGNEUqDczNEZDwDubqx9kKPynQE7F1tqE95SYOgeF1CnM0Xed3-Xk2QAG3mGtHUgMMOfqnmIykj9qKKzBzMlEg-VNCAeH3Q&state=180cf97b97176d5bbb6aeb0ac89ba67be206238315c6b601" for ::1 at 2019-09-18 15:17:12 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQCVqSY-5M47MU4P61ZL31shOri0mqXXXJTsCpNgTqHmYXumMILbRuKALrzOIrSH76tovZ0bEiq81CKyq4flhpKdpnEcdv1Z4jsDHnA4WTRtJECXBnsnJxUfj1pFW1TQ4-D8nA5zilNM1sEmOg9g8be-oCq9rMf-TwM2QmAwKe0lbGHm1hFXzaOTkjoi19en1aUGdtZaTXX0qmg-Y-KgCJcn-LDgrbTHpw5enYxWGNEUqDczNEZDwDubqx9kKPynQE7F1tqE95SYOgeF1CnM0Xed3-Xk2QAG3mGtHUgMMOfqnmIykj9qKKzBzMlEg-VNCAeH3Q", "state"=>"180cf97b97176d5bbb6aeb0ac89ba67be206238315c6b601"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 10743ms (Views: 10736.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:26:14 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:26:14 -0700
+Started GET "/auth/spotify/callback?code=AQAB_pIIi8tUI_-_2aYcYOLJ4XHAPMoRgyqhs-38EL-_eCQ3JQrblOV75MDEq0CW0V5SVBjuBk1GpDtk8ajynm2XYI0mMQSkrSGNPCEkJclc6ubCK8BBhDsDFPH_V1LrKPKb5JbbUqi891vtu7_R4xz1b5LM_KtJfATfdZZ7-YZy6FWq_gV_q0pQp-wQ08XJGSlLl-3Tq3U5AO3JO4YzCzsEV2gcEQz4KhwyK3GPC4kL-2zEZBFtteSlFOYYqEayZN48MYEfKs0xEVJFYW-cu5fpcZX5SuMvNAk8a0E2_hPv-IEeRXS0ngW95OuLr9cI00dCgQ&state=e0a070ab34466c4984845c10e9363c9a3b10f6c4626564ef" for ::1 at 2019-09-18 15:26:14 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQAB_pIIi8tUI_-_2aYcYOLJ4XHAPMoRgyqhs-38EL-_eCQ3JQrblOV75MDEq0CW0V5SVBjuBk1GpDtk8ajynm2XYI0mMQSkrSGNPCEkJclc6ubCK8BBhDsDFPH_V1LrKPKb5JbbUqi891vtu7_R4xz1b5LM_KtJfATfdZZ7-YZy6FWq_gV_q0pQp-wQ08XJGSlLl-3Tq3U5AO3JO4YzCzsEV2gcEQz4KhwyK3GPC4kL-2zEZBFtteSlFOYYqEayZN48MYEfKs0xEVJFYW-cu5fpcZX5SuMvNAk8a0E2_hPv-IEeRXS0ngW95OuLr9cI00dCgQ", "state"=>"e0a070ab34466c4984845c10e9363c9a3b10f6c4626564ef"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 13194ms (Views: 13191.7ms | ActiveRecord: 0.0ms)
+
+
