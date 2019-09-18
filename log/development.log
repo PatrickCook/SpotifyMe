@@ -367,3 +367,385 @@ Processing by UserController#spotify as HTML
 Completed 200 OK in 13194ms (Views: 13191.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/auth/spotify/callback?code=AQAB_pIIi8tUI_-_2aYcYOLJ4XHAPMoRgyqhs-38EL-_eCQ3JQrblOV75MDEq0CW0V5SVBjuBk1GpDtk8ajynm2XYI0mMQSkrSGNPCEkJclc6ubCK8BBhDsDFPH_V1LrKPKb5JbbUqi891vtu7_R4xz1b5LM_KtJfATfdZZ7-YZy6FWq_gV_q0pQp-wQ08XJGSlLl-3Tq3U5AO3JO4YzCzsEV2gcEQz4KhwyK3GPC4kL-2zEZBFtteSlFOYYqEayZN48MYEfKs0xEVJFYW-cu5fpcZX5SuMvNAk8a0E2_hPv-IEeRXS0ngW95OuLr9cI00dCgQ&state=e0a070ab34466c4984845c10e9363c9a3b10f6c4626564ef" for ::1 at 2019-09-18 15:39:20 -0700
+
+OmniAuth::Strategies::OAuth2::CallbackError - csrf_detected | CSRF detected:
+
+Started POST "/__better_errors/f2461b138521c3af/variables" for ::1 at 2019-09-18 15:39:21 -0700
+Started GET "/" for ::1 at 2019-09-18 15:39:35 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11345ms (Views: 11342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:39:49 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:39:49 -0700
+Started GET "/auth/spotify/callback?code=AQCZRcDrstAhKxvtMIIkyR-bJEr7UZAL71ffarlse6ODyCReI_ZzRKhn5-h1l3xj7JDDz_-eLXsruD2e5hL84x_2sMAQnHTaAmrNthHknA3ovdRkrqXUjUMC6D8CuYL9m7wOHq-Mg9qpw1bwSRbknAb08dAREqqHYEysLQOL3_qpPAXzBGubcNphVn1P-VMQlJiGC7-S05ngvT85XxM4B9hfqlYLMyxCse0WzMCr-wd_4tb6yghQUYFzSVBHj3-PVBT6xjmUDUlXURMP7IcRTSVxO_i4N3aOlLlREd4w0UPwt-HYwYDHFOoFANCr8G4N1COJtg&state=bd528b2bf86781d40673b2de9e2540df46d7b64ed49e8f49" for ::1 at 2019-09-18 15:39:49 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQCZRcDrstAhKxvtMIIkyR-bJEr7UZAL71ffarlse6ODyCReI_ZzRKhn5-h1l3xj7JDDz_-eLXsruD2e5hL84x_2sMAQnHTaAmrNthHknA3ovdRkrqXUjUMC6D8CuYL9m7wOHq-Mg9qpw1bwSRbknAb08dAREqqHYEysLQOL3_qpPAXzBGubcNphVn1P-VMQlJiGC7-S05ngvT85XxM4B9hfqlYLMyxCse0WzMCr-wd_4tb6yghQUYFzSVBHj3-PVBT6xjmUDUlXURMP7IcRTSVxO_i4N3aOlLlREd4w0UPwt-HYwYDHFOoFANCr8G4N1COJtg", "state"=>"bd528b2bf86781d40673b2de9e2540df46d7b64ed49e8f49"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.3ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 15062ms (Views: 11097.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 15:50:32 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 16605ms (Views: 16598.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:50:50 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:50:50 -0700
+Started GET "/auth/spotify/callback?code=AQDLgb-5aMX-FKlpoVV6DT3KWcV0IgW6cTyrFdBW1gC5Nap420baF_025lGf9XlXIgxUdZrqBvyLecWSMWv12ekIau7WS8LtkWQKb7LRVap9Dd8JyXaHFJgIQ2Nmm3WWkdWR2tjrNHcoi2VNEsDBecUcJLp3B-p8RuSLWRkLTc5kSSy8hjGrHs7IWh7vHN9SGUOpfEbkJXdKmwmN2UwDDnItMuXrMXforfJ6IKiVUPaFkdN7jFHNJ1rsFzibOODpgKFOXdNaeXpdRtmM7A1K0__EduQkSeIGT4ipDmKylYkwKxwAcbLjn8RWz0etloKqhljFww&state=e487ceab04295f4e43fcf6e3ae53344f39e25aca5ee7bdeb" for ::1 at 2019-09-18 15:50:51 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQDLgb-5aMX-FKlpoVV6DT3KWcV0IgW6cTyrFdBW1gC5Nap420baF_025lGf9XlXIgxUdZrqBvyLecWSMWv12ekIau7WS8LtkWQKb7LRVap9Dd8JyXaHFJgIQ2Nmm3WWkdWR2tjrNHcoi2VNEsDBecUcJLp3B-p8RuSLWRkLTc5kSSy8hjGrHs7IWh7vHN9SGUOpfEbkJXdKmwmN2UwDDnItMuXrMXforfJ6IKiVUPaFkdN7jFHNJ1rsFzibOODpgKFOXdNaeXpdRtmM7A1K0__EduQkSeIGT4ipDmKylYkwKxwAcbLjn8RWz0etloKqhljFww", "state"=>"e487ceab04295f4e43fcf6e3ae53344f39e25aca5ee7bdeb"}
+Completed 500 Internal Server Error in 324747ms (ActiveRecord: 0.0ms)
+
+
+
+OpenSSL::SSL::SSLError - SSL_connect SYSCALL returned=5 errno=0 state=SSLv3/TLS write client hello:
+  app/controllers/user_controller.rb:15:in `block (3 levels) in spotify'
+  app/controllers/user_controller.rb:14:in `block (2 levels) in spotify'
+  app/controllers/user_controller.rb:12:in `block in spotify'
+  app/controllers/user_controller.rb:10:in `spotify'
+
+Started GET "/" for ::1 at 2019-09-18 15:56:46 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12776ms (Views: 12771.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:57:03 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:57:03 -0700
+Started GET "/auth/spotify/callback?code=AQAG_e-Y3TQwyEiucStspazfbeEiDQg_0znlOv5N7htJn2G5lrr_wwdt3RhXDllNu2glqihddbElBRmb6b6-UEyyENt98dvx7gftl92m-Px7mHinasHljRFArcEfn7P0unkRbOQzg5mEWNXzDFr2oJe5oe5bzTUwdyZOmkK3aVNZHRKPwlcD_QEplTXJgjt8KtjOvrzyruYns0-u8Qw95Dg2SR3g74CUw5dBwHhtsZMmkkKYzwD4KC5xYDfrXbJlR-IeiqW9V2pp_cd7bHXhQEIHQMVsn-gCPLC7oFo_kOD6Od9mtryh5OArCTupmyAvT2sx0w&state=c3c1d1faa14b95b6fd016691034105ff620608e908cbfaa5" for ::1 at 2019-09-18 15:57:03 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQAG_e-Y3TQwyEiucStspazfbeEiDQg_0znlOv5N7htJn2G5lrr_wwdt3RhXDllNu2glqihddbElBRmb6b6-UEyyENt98dvx7gftl92m-Px7mHinasHljRFArcEfn7P0unkRbOQzg5mEWNXzDFr2oJe5oe5bzTUwdyZOmkK3aVNZHRKPwlcD_QEplTXJgjt8KtjOvrzyruYns0-u8Qw95Dg2SR3g74CUw5dBwHhtsZMmkkKYzwD4KC5xYDfrXbJlR-IeiqW9V2pp_cd7bHXhQEIHQMVsn-gCPLC7oFo_kOD6Od9mtryh5OArCTupmyAvT2sx0w", "state"=>"c3c1d1faa14b95b6fd016691034105ff620608e908cbfaa5"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11587ms (Views: 10958.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:58:01 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 15:58:01 -0700
+Started GET "/auth/spotify/callback?code=AQD1i02RkXaMAHuozj_TrjXXfLfxK7vqbkLh-B637qWZAlh-UGD1DxkcqOWrncpJBdMg-M-s0G6R5OQ5hhG_IJlHPi_JZVmcnsh6LNe3kLrZLhPj-ksnFAsG0TRxW45xSRpmYfZvOsqhuUKAEjqwjId9R1q80ZRvxP90GApPwCVEVrRghk5lCrldv0Kk4mX6iv4xxln3T63tFUPxVAZ-m9rvJMRnk_QGp8HgOUmaGJy5d5X2JUSmq4DD7qcB0FJmJzu2sfGphWxHktkKIqGmhYIIKJHfmD9smBdd9PaDCbaCigaT5ABae88RfqGbP2P6q2LF1g&state=4332ef56c924f1d4bc67f53c90600b7e2b7e36b688527170" for ::1 at 2019-09-18 15:58:01 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQD1i02RkXaMAHuozj_TrjXXfLfxK7vqbkLh-B637qWZAlh-UGD1DxkcqOWrncpJBdMg-M-s0G6R5OQ5hhG_IJlHPi_JZVmcnsh6LNe3kLrZLhPj-ksnFAsG0TRxW45xSRpmYfZvOsqhuUKAEjqwjId9R1q80ZRvxP90GApPwCVEVrRghk5lCrldv0Kk4mX6iv4xxln3T63tFUPxVAZ-m9rvJMRnk_QGp8HgOUmaGJy5d5X2JUSmq4DD7qcB0FJmJzu2sfGphWxHktkKIqGmhYIIKJHfmD9smBdd9PaDCbaCigaT5ABae88RfqGbP2P6q2LF1g", "state"=>"4332ef56c924f1d4bc67f53c90600b7e2b7e36b688527170"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 14847ms (Views: 11023.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify/callback?code=AQD1i02RkXaMAHuozj_TrjXXfLfxK7vqbkLh-B637qWZAlh-UGD1DxkcqOWrncpJBdMg-M-s0G6R5OQ5hhG_IJlHPi_JZVmcnsh6LNe3kLrZLhPj-ksnFAsG0TRxW45xSRpmYfZvOsqhuUKAEjqwjId9R1q80ZRvxP90GApPwCVEVrRghk5lCrldv0Kk4mX6iv4xxln3T63tFUPxVAZ-m9rvJMRnk_QGp8HgOUmaGJy5d5X2JUSmq4DD7qcB0FJmJzu2sfGphWxHktkKIqGmhYIIKJHfmD9smBdd9PaDCbaCigaT5ABae88RfqGbP2P6q2LF1g&state=4332ef56c924f1d4bc67f53c90600b7e2b7e36b688527170" for ::1 at 2019-09-18 16:03:53 -0700
+
+OmniAuth::Strategies::OAuth2::CallbackError - csrf_detected | CSRF detected:
+
+Started POST "/__better_errors/248c245d310226b9/variables" for ::1 at 2019-09-18 16:03:54 -0700
+Started GET "/" for ::1 at 2019-09-18 16:03:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+[Webpacker] Compiling…
+Started GET "/" for ::1 at 2019-09-18 16:04:00 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11946ms (Views: 11944.1ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12197ms (Views: 12195.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:04:15 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:04:15 -0700
+Started GET "/auth/spotify/callback?code=AQCEs_CWeILpHFsZcTY2g22tFc7KEZ4cZlvux8r68TmNgzukKifas4Th6Wa-VJWW_8gQl0O2EO-8zBHsjkwHsi5vpOEOaacIBbgS-in-8aX3IK1k5ChYUubIPdXX5jsShkLnXcO1DuAa9pAtbFB_5pqogMVCyJVvZTT1z4fxlHjun2weYBOoqHO9DMBBPEIxrnhCWEyqsfe7esup2_UC4LJyMjbWWvfXzpTaoblNVagrh2C_Kaxc2Sci5EAhSsMLuW37GZvLvqbRSdE0pZF9pPzjQUqV6ecKXRmlhdyqzcK9sx8tjcYA-WKr4X9FGqW9ceEwUQ&state=67925b75277449d95daa038c5fe718be9468342515c1a774" for ::1 at 2019-09-18 16:04:16 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQCEs_CWeILpHFsZcTY2g22tFc7KEZ4cZlvux8r68TmNgzukKifas4Th6Wa-VJWW_8gQl0O2EO-8zBHsjkwHsi5vpOEOaacIBbgS-in-8aX3IK1k5ChYUubIPdXX5jsShkLnXcO1DuAa9pAtbFB_5pqogMVCyJVvZTT1z4fxlHjun2weYBOoqHO9DMBBPEIxrnhCWEyqsfe7esup2_UC4LJyMjbWWvfXzpTaoblNVagrh2C_Kaxc2Sci5EAhSsMLuW37GZvLvqbRSdE0pZF9pPzjQUqV6ecKXRmlhdyqzcK9sx8tjcYA-WKr4X9FGqW9ceEwUQ", "state"=>"67925b75277449d95daa038c5fe718be9468342515c1a774"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11238ms (Views: 10758.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 16:05:18 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+Started GET "/" for ::1 at 2019-09-18 16:05:22 -0700
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11025ms (Views: 11024.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 12160ms (Views: 12158.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:05:44 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:05:45 -0700
+Started GET "/auth/spotify/callback?code=AQCi7socHjl0h97BT262UXKx5-2f69gHqvkynk0GFXZ747elgABmUFVD5-6F3Hv7kBr-jS3gFhUIWf53LEdvNHBqBSnF8LG78dgcR7BHD8gLttLeZcPqh9dG2tjoQ13WCBLapVAej3BxFU4fxx_E6lqNohZrmhYDEegIFbluudl7AX1Bc9_YPpm0Av4TZmRzEGPJSymPkN24DVGgrmBmZhB_TKGRF0U2yaG6DnJP_nlSN4vhgH1ZEntJcyVHeLgEzO3ijdxe5AXSzdrfoxIeWaqVh_vJEtauYvzK_gP6h5oOjzLHD4XaEe_3tFRmMr1-p7Xrbw&state=49b226b89a606eee61e1559713449354bdffd0a79c8d2405" for ::1 at 2019-09-18 16:05:45 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQCi7socHjl0h97BT262UXKx5-2f69gHqvkynk0GFXZ747elgABmUFVD5-6F3Hv7kBr-jS3gFhUIWf53LEdvNHBqBSnF8LG78dgcR7BHD8gLttLeZcPqh9dG2tjoQ13WCBLapVAej3BxFU4fxx_E6lqNohZrmhYDEegIFbluudl7AX1Bc9_YPpm0Av4TZmRzEGPJSymPkN24DVGgrmBmZhB_TKGRF0U2yaG6DnJP_nlSN4vhgH1ZEntJcyVHeLgEzO3ijdxe5AXSzdrfoxIeWaqVh_vJEtauYvzK_gP6h5oOjzLHD4XaEe_3tFRmMr1-p7Xrbw", "state"=>"49b226b89a606eee61e1559713449354bdffd0a79c8d2405"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11515ms (Views: 10902.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 16:06:17 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+Started GET "/" for ::1 at 2019-09-18 16:06:21 -0700
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11268ms (Views: 11266.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11443ms (Views: 11441.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:07:19 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:07:19 -0700
+Started GET "/auth/spotify/callback?code=AQD-x5NPy_vcg0NK7O4N6XPgfmJW6x-8xs7BNN9KskPBTTZYkUNfBaeNBVw7KbhinMdeW7U9dnqbrHPPYseCGWTAednw_n8SE1Nn7i5ebtJjXd3lNGyoVCp6e0ycGjd8SfXqvPiOpDifsNPIjD0ugEpC6jn_tDW8Im-XnUexBaP160FSLSWdH14V-o_Hhb7EIMuYYRznn3nyR8KbO5CKEgCSVMC7O3Y2TI_OSuvKB1byhOjU8RprWy3fyzfZwVPTksn2jLkWT4Av_mrc-TN9VPAPjKg09TxkAShHzlX4xLLVjV-D9hpxCNoGTRZfIFMJEAaLXw&state=9dbf4346458063afe2a211b611dbc8fea9faa3db9856c2c5" for ::1 at 2019-09-18 16:07:20 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQD-x5NPy_vcg0NK7O4N6XPgfmJW6x-8xs7BNN9KskPBTTZYkUNfBaeNBVw7KbhinMdeW7U9dnqbrHPPYseCGWTAednw_n8SE1Nn7i5ebtJjXd3lNGyoVCp6e0ycGjd8SfXqvPiOpDifsNPIjD0ugEpC6jn_tDW8Im-XnUexBaP160FSLSWdH14V-o_Hhb7EIMuYYRznn3nyR8KbO5CKEgCSVMC7O3Y2TI_OSuvKB1byhOjU8RprWy3fyzfZwVPTksn2jLkWT4Av_mrc-TN9VPAPjKg09TxkAShHzlX4xLLVjV-D9hpxCNoGTRZfIFMJEAaLXw", "state"=>"9dbf4346458063afe2a211b611dbc8fea9faa3db9856c2c5"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 29785ms (Views: 10758.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify/callback?code=AQD-x5NPy_vcg0NK7O4N6XPgfmJW6x-8xs7BNN9KskPBTTZYkUNfBaeNBVw7KbhinMdeW7U9dnqbrHPPYseCGWTAednw_n8SE1Nn7i5ebtJjXd3lNGyoVCp6e0ycGjd8SfXqvPiOpDifsNPIjD0ugEpC6jn_tDW8Im-XnUexBaP160FSLSWdH14V-o_Hhb7EIMuYYRznn3nyR8KbO5CKEgCSVMC7O3Y2TI_OSuvKB1byhOjU8RprWy3fyzfZwVPTksn2jLkWT4Av_mrc-TN9VPAPjKg09TxkAShHzlX4xLLVjV-D9hpxCNoGTRZfIFMJEAaLXw&state=9dbf4346458063afe2a211b611dbc8fea9faa3db9856c2c5" for ::1 at 2019-09-18 16:10:37 -0700
+
+OmniAuth::Strategies::OAuth2::CallbackError - csrf_detected | CSRF detected:
+
+Started POST "/__better_errors/d79a3930ce985312/variables" for ::1 at 2019-09-18 16:10:37 -0700
+Started GET "/" for ::1 at 2019-09-18 16:10:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+[Webpacker] Compiling…
+Started GET "/" for ::1 at 2019-09-18 16:10:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 13216ms (Views: 13214.9ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 11715ms (Views: 11713.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:10:56 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:10:57 -0700
+Started GET "/auth/spotify/callback?code=AQDjFVGjDw6eWKpoEP7CmeFBSLpyRaLJUo3smo6EUB_dW8_TeHHgzRxRKxAmd9mNWcQSvdjtWTJTGPZq-AANyePWXwNcGFff4mJ5oNrDc5MuiNC_sxfhPfgq705FT0lTMRcUmJ8SwF62ErytqICUP9mdbAmXbE20xpIzTXnZBPqtBe2p7qNRVCbzMscREqmd747-9my_vfvDbH6HbZnaVZEExzCPkCnk2LNuA-SPPUaqu4sSiwTz17VFupMIa_zdgXUX8zWyprtGWCKYzGE0qwa_TRPqqKNy6wPXBdU0kI2H7hR3cIrzFQSWqaxcptisBWvnOw&state=4c727c543c772226196d12489e37d40493084cfb3737e0c0" for ::1 at 2019-09-18 16:10:57 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQDjFVGjDw6eWKpoEP7CmeFBSLpyRaLJUo3smo6EUB_dW8_TeHHgzRxRKxAmd9mNWcQSvdjtWTJTGPZq-AANyePWXwNcGFff4mJ5oNrDc5MuiNC_sxfhPfgq705FT0lTMRcUmJ8SwF62ErytqICUP9mdbAmXbE20xpIzTXnZBPqtBe2p7qNRVCbzMscREqmd747-9my_vfvDbH6HbZnaVZEExzCPkCnk2LNuA-SPPUaqu4sSiwTz17VFupMIa_zdgXUX8zWyprtGWCKYzGE0qwa_TRPqqKNy6wPXBdU0kI2H7hR3cIrzFQSWqaxcptisBWvnOw", "state"=>"4c727c543c772226196d12489e37d40493084cfb3737e0c0"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Completed 200 OK in 28132ms (Views: 10528.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 16:15:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1854ms (Views: 1849.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:15:36 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:15:36 -0700
+Started GET "/auth/spotify/callback?code=AQA2HPafFtBlf3XytJCgNVieeQ8WhxacsQBHF5uI2CIM8QlVhcHXX8nhP9U6_qRhTxMr7xz85TOKTBg3NHqzwOwkJye7hS28Y2GUSSeI6EslTBDiaTCy-gp1eq9EP0spkMZC9J7jU4bDubsLu5D0TLtpRWRlPie6gf5FRT4ZE5iGZCi3KV3PAx9WdSIkKpHdxIJzlwVutILTZjU6rPvZf-G_yuhp0MNiwHPzJMDGrWbXWhMePJl_BKmcdv9b_m0yz928TRvFRvQ1IVAfco2_SYR7k-IuG_rmX7dLQBzhLDxa-Ck8W8SlrdXfYY1WcdD8hrBJYA&state=87a396cba3f12fdb140c4de2903bdbd9ba713174c6352bc2" for ::1 at 2019-09-18 16:15:36 -0700
+Processing by UserController#spotify as HTML
+  Parameters: {"code"=>"AQA2HPafFtBlf3XytJCgNVieeQ8WhxacsQBHF5uI2CIM8QlVhcHXX8nhP9U6_qRhTxMr7xz85TOKTBg3NHqzwOwkJye7hS28Y2GUSSeI6EslTBDiaTCy-gp1eq9EP0spkMZC9J7jU4bDubsLu5D0TLtpRWRlPie6gf5FRT4ZE5iGZCi3KV3PAx9WdSIkKpHdxIJzlwVutILTZjU6rPvZf-G_yuhp0MNiwHPzJMDGrWbXWhMePJl_BKmcdv9b_m0yz928TRvFRvQ1IVAfco2_SYR7k-IuG_rmX7dLQBzhLDxa-Ck8W8SlrdXfYY1WcdD8hrBJYA", "state"=>"87a396cba3f12fdb140c4de2903bdbd9ba713174c6352bc2"}
+  Rendering user/spotify.html.erb within layouts/application
+  Rendered user/spotify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17379ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-18 16:21:07 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:21:25 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:21:26 -0700
+Started GET "/auth/spotify/callback?code=AQAngDvYKiTMrlTgMvYggvjbpFb6G_QlxC6Xrzx8z3tSoB8bSADfF-40sOjM6cjJIOFDPAI91gTKEn3ohjEyvzdQa4xx6BiJIedYL8OmuBoGZ5GS678jAMLY70d7m_BekLzMsN_XRKJ8dqEwGqzXwyysPXFQlgB1Aj-WHZbT6u3vlBkJ3PJZtRGbGE6_o3-99C5vKy5rMj6HC1Ds-wlXOLSgGF-OcRP3D9dtmxuPgtl464Ovm1-Y7Yp1EQPD_2CTDbY9LD7Lzi1Y40qEGTjgsE-eeWedQiZvNgqw3TvV0YJMzNsZ09elj1yuX91fLWLinrXWig&state=40d8644aa2da6f2fc150613256d2877229613b0ea0272559" for ::1 at 2019-09-18 16:21:26 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQAngDvYKiTMrlTgMvYggvjbpFb6G_QlxC6Xrzx8z3tSoB8bSADfF-40sOjM6cjJIOFDPAI91gTKEn3ohjEyvzdQa4xx6BiJIedYL8OmuBoGZ5GS678jAMLY70d7m_BekLzMsN_XRKJ8dqEwGqzXwyysPXFQlgB1Aj-WHZbT6u3vlBkJ3PJZtRGbGE6_o3-99C5vKy5rMj6HC1Ds-wlXOLSgGF-OcRP3D9dtmxuPgtl464Ovm1-Y7Yp1EQPD_2CTDbY9LD7Lzi1Y40qEGTjgsE-eeWedQiZvNgqw3TvV0YJMzNsZ09elj1yuX91fLWLinrXWig", "state"=>"40d8644aa2da6f2fc150613256d2877229613b0ea0272559"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `email' for nil:NilClass:
+  app/views/user/spotify_callback.html.erb:1:in `_app_views_user_spotify_callback_html_erb___4067166401831633672_70349414890460'
+
+Started POST "/__better_errors/d9d0b20ff86ca722/variables" for ::1 at 2019-09-18 16:21:26 -0700
+Started GET "/" for ::1 at 2019-09-18 16:21:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1625ms (Views: 1623.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:21:46 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:21:46 -0700
+Started GET "/auth/spotify/callback?code=AQBDZlleANhzc_TJH5LHi0nxAdNhFwZRD4XGTYhK8EnV3TCqGeX34hh7RdKWrubG4GG_kuHk4rFVpH5i3tUPhC4ZdPcjg-QNa85p0GPhYtA8_yl5m_b_66TK0_SvuJ3rq4nYv8__dx3P1Ny9bUUCsWw_s4lYHuSatJY40gjO41LTKRhRuQvDRRHrVFffYKOBklFG2GR5w-BZAgU23ATgZmoseJl6Ud-O0pRYFYCGrDr1oxKiBUEU435GDGAigcSV79Pg1fqeIA2Ds4KoBEkCzIK0VsZnhu6zyTKoRC3pmCL4i75UyZH4btjSBQ29LAc6Hv6lGA&state=e85233abbcb7524c5770f45443e89bfe00f6f3c523ff1300" for ::1 at 2019-09-18 16:21:46 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQBDZlleANhzc_TJH5LHi0nxAdNhFwZRD4XGTYhK8EnV3TCqGeX34hh7RdKWrubG4GG_kuHk4rFVpH5i3tUPhC4ZdPcjg-QNa85p0GPhYtA8_yl5m_b_66TK0_SvuJ3rq4nYv8__dx3P1Ny9bUUCsWw_s4lYHuSatJY40gjO41LTKRhRuQvDRRHrVFffYKOBklFG2GR5w-BZAgU23ATgZmoseJl6Ud-O0pRYFYCGrDr1oxKiBUEU435GDGAigcSV79Pg1fqeIA2Ds4KoBEkCzIK0VsZnhu6zyTKoRC3pmCL4i75UyZH4btjSBQ29LAc6Hv6lGA", "state"=>"e85233abbcb7524c5770f45443e89bfe00f6f3c523ff1300"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized class variable @@spotify_user in ActionView::CompiledTemplates:
+  app/views/user/spotify_callback.html.erb:1:in `_app_views_user_spotify_callback_html_erb___4067166401831633672_70348544792500'
+
+Started POST "/__better_errors/9b08e5441d8dc330/variables" for ::1 at 2019-09-18 16:21:46 -0700
+Started GET "/" for ::1 at 2019-09-18 16:23:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1685ms (Views: 1681.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:23:32 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:23:32 -0700
+Started GET "/auth/spotify/callback?code=AQDkVwOqVIHKnk0Tvm7ed3xS4Gp5_Tj2zQRo4P8t9wsds7WVkJo8C_q1X_w5OC6Lg-UyPmskQA7tENSZt84TBnTqlCjxb--tz3bsi7hZZ_WKfUdzQHhedb2G50sApgqcoy2oNxML3DVKejK-hwBmb8Vfu8AgbcNXBXR0STKIc24ZKP80DcQRh5uvEO33wBzhkrV0acj6TSYHg5LBOd9Qpb43MpfXVFQFW0lYN6Ft_jiuYkNPDy4e3KKNvZ4XxhLaOtw4uHAXfP49nuRtLQcmzq_I89SrVaDj2XybszS0_vEjhQpNyLuHM13lyci-aXtSezLxpQ&state=981f28e98c7652639b00eec6dc74a22fd38d86c117c04c23" for ::1 at 2019-09-18 16:23:32 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQDkVwOqVIHKnk0Tvm7ed3xS4Gp5_Tj2zQRo4P8t9wsds7WVkJo8C_q1X_w5OC6Lg-UyPmskQA7tENSZt84TBnTqlCjxb--tz3bsi7hZZ_WKfUdzQHhedb2G50sApgqcoy2oNxML3DVKejK-hwBmb8Vfu8AgbcNXBXR0STKIc24ZKP80DcQRh5uvEO33wBzhkrV0acj6TSYHg5LBOd9Qpb43MpfXVFQFW0lYN6Ft_jiuYkNPDy4e3KKNvZ4XxhLaOtw4uHAXfP49nuRtLQcmzq_I89SrVaDj2XybszS0_vEjhQpNyLuHM13lyci-aXtSezLxpQ", "state"=>"981f28e98c7652639b00eec6dc74a22fd38d86c117c04c23"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized class variable @@spotify_user in ActionView::CompiledTemplates:
+  app/views/user/spotify_callback.html.erb:1:in `_app_views_user_spotify_callback_html_erb__2374890725632680803_70246996716600'
+
+Started POST "/__better_errors/35f1e07130447460/variables" for ::1 at 2019-09-18 16:23:33 -0700
+Started GET "/" for ::1 at 2019-09-18 16:24:15 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:24:17 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:24:17 -0700
+Started GET "/auth/spotify/callback?code=AQCclSN0TXzSSaVzgKdEAfnM3c9ZqvAD75bA1ZZa3CLcz8jYYyCUdkeZxzmdc3AyrfLj6jYwjI_QFnMrz5NlHBCn1jZxL-TV0S-kJ2LpXalH70pmGI7hvF6VVhybmUCFEOv1fRY3_xQpuYbQNDeWNGBCabVEXSbTR4m8k8cq_5kMbtwMFtkumaPGHc54qX9u5gGK58clZ5bpNWJM-jcvEO2m1-SBhEvlcv73rZU6O3EdvhHVZUqPg-T55ut7q6sTHM2xWgnuCPAXJmzPV_PikYznFU1SviASBz3eipXO_RVTY6VNnIfuJPzbUlaHqxUgyA9zaA&state=094159e499a1cce3aefcf0875d2cf59912aa8048cd4f56bf" for ::1 at 2019-09-18 16:24:18 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQCclSN0TXzSSaVzgKdEAfnM3c9ZqvAD75bA1ZZa3CLcz8jYYyCUdkeZxzmdc3AyrfLj6jYwjI_QFnMrz5NlHBCn1jZxL-TV0S-kJ2LpXalH70pmGI7hvF6VVhybmUCFEOv1fRY3_xQpuYbQNDeWNGBCabVEXSbTR4m8k8cq_5kMbtwMFtkumaPGHc54qX9u5gGK58clZ5bpNWJM-jcvEO2m1-SBhEvlcv73rZU6O3EdvhHVZUqPg-T55ut7q6sTHM2xWgnuCPAXJmzPV_PikYznFU1SviASBz3eipXO_RVTY6VNnIfuJPzbUlaHqxUgyA9zaA", "state"=>"094159e499a1cce3aefcf0875d2cf59912aa8048cd4f56bf"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized class variable @@spotify_user in ActionView::CompiledTemplates:
+  app/views/user/spotify_callback.html.erb:1:in `_app_views_user_spotify_callback_html_erb__2374890725632680803_70247075971560'
+
+Started POST "/__better_errors/d3da9f554061f3ba/variables" for ::1 at 2019-09-18 16:24:18 -0700
+Started GET "/" for ::1 at 2019-09-18 16:26:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:26:23 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:26:24 -0700
+Started GET "/auth/spotify/callback?code=AQALvxrsJ3JojnsMT-yr9tGHRd9kTrAXyznbljSFckjwrN5inmAKQlPeEA7-msATX7GFLbldHPuNJ6eisgF54nJvM89_jFVX7Q7NqjYRmKFUOUyy2dEovBAMXFWTSJevYbDJEzOWMTx4EhLLyoF9O6Qwdx22_Ws1e1uIbaBjuxRQmh9phMNXofOB4DkxG54MUVGrcN1VT6VY3BSStA-1QhoahZSkDMYnFms97Ss2MX4hjS3jM2rgyPIkLHx1TufmXKvvK_PKrAJBhGz4-C6TAI9Mjr9npju4h-z8mnxK1D-gAXU_4xqoVP_AQ0hoh11N0C2U6w&state=51bed845942988e67da8b0deb14bbda60d7d0441225f140a" for ::1 at 2019-09-18 16:26:24 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQALvxrsJ3JojnsMT-yr9tGHRd9kTrAXyznbljSFckjwrN5inmAKQlPeEA7-msATX7GFLbldHPuNJ6eisgF54nJvM89_jFVX7Q7NqjYRmKFUOUyy2dEovBAMXFWTSJevYbDJEzOWMTx4EhLLyoF9O6Qwdx22_Ws1e1uIbaBjuxRQmh9phMNXofOB4DkxG54MUVGrcN1VT6VY3BSStA-1QhoahZSkDMYnFms97Ss2MX4hjS3jM2rgyPIkLHx1TufmXKvvK_PKrAJBhGz4-C6TAI9Mjr9npju4h-z8mnxK1D-gAXU_4xqoVP_AQ0hoh11N0C2U6w", "state"=>"51bed845942988e67da8b0deb14bbda60d7d0441225f140a"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - uninitialized class variable @@spotify_user in ActionView::CompiledTemplates:
+  app/views/user/spotify_callback.html.erb:1:in `_app_views_user_spotify_callback_html_erb__2374890725632680803_70247780186960'
+
+Started POST "/__better_errors/a4d5a455ac9704b3/variables" for ::1 at 2019-09-18 16:26:24 -0700
+Started GET "/" for ::1 at 2019-09-18 16:26:56 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:26:58 -0700
+Started GET "/auth/spotify" for ::1 at 2019-09-18 16:26:58 -0700
+Started GET "/auth/spotify/callback?code=AQAhoHN-ZRsbLVRoAyjteN21A1Xe-NRcqCCa8b1b_9I263appqUhPckjsZx7Q32OabEtDfaSMexePo-yonTNJqgeI9mtQDQAqrHLTjBCEt7NEB312vzHSnkM6d-n7ognEdc586phZGonYrVrITbD5hs6IlEboq712r7plkkqUvLpqXiqtKT4ZWcXkzvf0aSzsKjQzn8kR2dql115bc5UQoqzYyd28HE5DyaKsVF_KWoFpMp4oULqwo3nVuIENP6Rd8ScZiDqYvb5wtUSsZ49AOL3ndztEaBqaP-oxBjKuRqZZU84urwKtDwnLQlcF0bEAjyB-A&state=dce27d2e3664f2d32b42798a0b34f3612016214edbbd7517" for ::1 at 2019-09-18 16:26:58 -0700
+Processing by UserController#spotify_callback as HTML
+  Parameters: {"code"=>"AQAhoHN-ZRsbLVRoAyjteN21A1Xe-NRcqCCa8b1b_9I263appqUhPckjsZx7Q32OabEtDfaSMexePo-yonTNJqgeI9mtQDQAqrHLTjBCEt7NEB312vzHSnkM6d-n7ognEdc586phZGonYrVrITbD5hs6IlEboq712r7plkkqUvLpqXiqtKT4ZWcXkzvf0aSzsKjQzn8kR2dql115bc5UQoqzYyd28HE5DyaKsVF_KWoFpMp4oULqwo3nVuIENP6Rd8ScZiDqYvb5wtUSsZ49AOL3ndztEaBqaP-oxBjKuRqZZU84urwKtDwnLQlcF0bEAjyB-A", "state"=>"dce27d2e3664f2d32b42798a0b34f3612016214edbbd7517"}
+  Rendering user/spotify_callback.html.erb within layouts/application
+  Rendered user/spotify_callback.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user/spotifyme" for ::1 at 2019-09-18 16:27:03 -0700
+Processing by UserController#spotifyme as HTML
+  Rendering user/spotifyme.html.erb within layouts/application
+  Rendered user/spotifyme.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18397ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
