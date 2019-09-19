@@ -1,4 +1,5 @@
 require 'json'
+require 'pp'
 
 class UserController < ApplicationController
   @@user_hash = nil
@@ -8,23 +9,29 @@ class UserController < ApplicationController
     @@user_hash = @spotify_user.to_hash
   end
 
-  def spotifyme
-    genres= []
+  def spotify_genre_history
+    data = {}
     spotify_user = RSpotify::User.new(@@user_hash)
     playlists = spotify_user.playlists(limit: 1)
 
     playlists.each do | playlist |
+      data = playlist.tracks_added_at
       tracks = playlist.tracks
       tracks.each do | track |
         artists = track.artists
+        track_genres = []
         artists.each do | artist |
-          genres += artist.genres
+          track_genres = artist.genres
         end
+
+        data[track.id] = {
+          :track_name => track.name,
+          :date_added => data[track.id],
+          :genres => track_genres
+        }
+
       end
     end
-
-    genres_counted = genres.uniq.map { |x| [x, genres.count(x)] }.sort_by { |k, v| -v }
-
-    @genres_counted_json = genres_counted.to_h
+    @genres = data
   end
 end

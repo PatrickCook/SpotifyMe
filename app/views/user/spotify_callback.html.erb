@@ -1,2 +1,4 @@
 <h1>Spotify User:</h1> <%= @spotify_user.email %>
-<%= link_to 'View SpotifyMe', '/user/spotifyme' %>
+<h2>Below you will find links to your Spotify listening analytics</h2>
+<%= link_to 'View Genre Listening History', '/user/spotify_genre_history' %>
+<%= link_to 'View top tracks', '/user/spotify_top_tracks' %>
