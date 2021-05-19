@@ -5,7 +5,7 @@ ruby "2.6.3"
 
 gem "bootsnap", ">= 1.2.0", require: false
 gem "pg", ">= 0.18"
-gem "puma", "~> 3.11"
+gem "puma", "~> 4.3"
 gem "rails", "~> 5.2.0"
 gem "sass-rails", "~> 5.0"
 gem 'turbolinks', '~> 5'
